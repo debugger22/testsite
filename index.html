@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta property="og:url" content="http://cc.bits-goa.ac.in" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="CC" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Computer Centre</title>
+		<link rel="shortcut icon" href=""> <!--To be added-->
+		
+		<!--global css-->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+
+		<!--push-menu css-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		
+		<!--image-slider css-->
+		<link rel="stylesheet" type="text/css" href="css/image-slider.css" />
+
+		<!--global scripts-->
+		<script src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/lib/jquery-1.10.2.min.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		
+		<!--image-slider scripts-->
+		<script type="text/javascript" src="js/jquery.flexslider-min.js" ></script>
+		<script type="text/javascript" src="js/image-slider.js"></script>
+
+		<!--ajaxloader scripts-->
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+	
+	<!-- <div class="top-panel">
+	<div class="bits-logo"></div>
+	<div class="login-dd">
+		<span class="label label-info">BookBank</span>
+		<div class="glyphicon glyphicon-off"></div>
+	</div>
+	</div> -->
+	<header style="width:100%;height:65px;background-image:url('images/menu_bg.png');">
+		<div class="bits-logo"></div><div style="font-size:32px;padding-top:5px;"><strong>Computer Centre</strong></div>
+		<div class="login-dd">
+			<span class="label label-info"></span>
+			<div class="glyphicon glyphicon-bullhorn"></div>
+		</div>
+	</header>
+		<div  style="background:#ecf0f1;" class="container">	<!-- Push Wrapper -->
+ 			<div class="mp-pusher" id="mp-pusher">	<!-- mp-menu -->
+
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<h2 class="icon icon-world" style="font-size: 20px;"><a style="text-decoration: none;" id="cmdHome" href="#"><i style="font-size:20px;padding-right:5px;" class="glyphicon glyphicon-home"></i>Home</a></h2>
+						<ul>
+							<li class="icon icon-arrow-left">
+								<a href="#">Services</a>
+								<div class="mp-level">
+									<h2 class="icon icon-display">Services</h2>
+									<a class="mp-back" href="#">Back</a>
+									<ul>
+										<li>
+											<a target="_blank" href="http://10.1.1.222/cms/">Complaint Portal</a>
+										</li>
+										<li>
+											<a id="cmdTPRBooking" href="#">TPR Booking</a>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a href="#">Manage Faculty Profile</a>
+											<div class="mp-level">
+												<h2 style="font-size:1.1em;">Manage Faculty Profile</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a target="_blank" href="http://www.bits-pilani.ac.in/microadmin/login.aspx">Microadmin Link</a></li>
+													<li><a href="http://discovery.bits-pilani.ac.in/CSDPages/Faculty_Tutorial/" target="_blank">Video Tutorial</a></li>
+													<li><a href="http://10.1.1.54/other_files/Steps%20to%20Upload%20CV%20in%20your%20profile.pdf" target="_blank">Steps to upload CV</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a href="#">Information</a>
+								<div class="mp-level">
+									<h2 class="icon icon-news">Information</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li><a id="cmdComputerLab" href="#">Computer Lab</a></li>
+										<li><a id="cmdServerRoom" href="#">Server Room</a></li>
+										<li><a id="cmdLAN" href="#">LAN</a></li>
+										<li><a id="cmdPDFDownloads" href="#">PDF Downloads</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a href="#">Repositories</a>
+								<div class="mp-level">
+									<h2 class="icon icon-shop">Repositories</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li>
+											<a target="_blank" href="ftp://10.1.9.224/windows/">Windows</a>
+										</li>
+										<li>
+											<a target="_blank" href="ftp://10.1.9.224/linux/">Linux</a>
+										</li>
+										<li>
+											<a target="_blank" href="http://e5.onthehub.com/d.ashx?s=46eid5gfli">Dream Spark</a>
+										</li>
+										<li>
+											<a target="_blank" href="ftp://10.1.1.223/">Acadamic FTP</a>
+										</li>
+										<li>
+											<a target="_blank" href="ftp://10.10.10.116/Bitsstudio/">Image Gallery</a>
+										</li>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a href="#">Quick Links</a>
+								<div class="mp-level">
+									<h2 class="">Quick Links</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li>
+											<a target="_blank" href="http://10.1.1.242/">Photon(moodle)</a>
+										</li>
+										<li>
+											<a target="_blank" href="https://campnet.bits-goa.ac.in/campnet/">LDAP</a>
+										</li>
+										<li>
+											<a target="_blank" href="https://bits-goa.webex.com/">WebEx</a>
+										</li>
+										<li>
+											<a target="_blank" href="http://cc.bits-goa.ac.in/payslip/">Payslip</a>
+										</li>
+										<li>
+											<a target="_blank" href="http://10.1.1.222/inventory/">CC Loan Slip</a>
+										</li>
+										<li>
+											<a target="_blank" href="http://10.1.1.222/histogram/">Grade Analysis Software</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</nav>
+				<div class="scroller">
+                    <div class="scroller-inner">
+								
+			    				<p><div id="trigger" class="menu-trigger" style="padding-right:80px;color:black;width: 35px;height: 35px;margin-left:3px;
+float: left;background:url('images/smallarrow.png') no-repeat;cursor:pointer;"></div><a href="#" style="
+text-indent: 0;
+display: inline-block;
+color: silver;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+height: 30px;
+margin-left:-40px;
+line-height: 30px;
+width: 60px;
+text-decoration: none;
+">Menu</a></p>		
+						<div id="pic" class="pic">
+                    		<!--image slider div starts-->
+                    		<div class="picture-slides">	
+								<div id="slider" class="flexslider">
+									<div class="next-slide">»</div>
+									<div class="prev-slide">«</div>
+								  <ul class="slides">
+								    <li>
+								      <img src="images/1.jpg" />
+								    </li>
+								    <li>
+								      <img src="images/2.jpg" />
+								    </li>
+								    <li>
+								      <img src="images/3.jpg"/>
+								    </li>
+								    <li>
+								      <img src="images/4.jpg"/>
+								    </li>
+								  </ul>
+
+								
+							</div>
+							<div id="carousel" class="flexslider">
+								  <ul class="slides">	
+								    <li>
+								      <img src="images/1.jpg" />
+								    </li>
+								    <li>
+								      <img src="images/2.jpg"/>
+								    </li>
+								    <li>
+								      <img src="images/3.jpg" />
+								    </li>
+								    <li>
+								      <img src="images/4.jpg" />
+								    </li>
+								  </ul>
+							</div>
+								
+						  	</div>
+                		</div>
+                		<!--image slider div ends-->
+                	<ul class="rightul">
+                        <li class="rightli">
+                            <a class="glyphicon glyphicon-search" href="#"></a> <span class="menu">Search</span>
+                        </li>
+                        <li class="rightli">
+                            <a class="glyphicon glyphicon-globe" targe="_blank" href="http://www.bits-pilani.ac.in/"></a> <span class="menu">University Home</span>
+                        </li>
+                        <li class="rightli">
+                            <a class="glyphicon glyphicon-earphone" href="#"></a> <span>Contact Us</span>
+                        </li>
+
+                        <li class="rightli">
+                            <a class="entypo-info-circled" href="#"></a> <span>About us</span>
+                        </li>
+
+                        <li class="rightli">
+                            <a class="entypo-location" target="_blank" href="http://maps.googleapis.com/maps/api/staticmap?center=15.3908,73.8775&zoom=15&size=1366x768&sensor=true"></a> <span>Find us</span>
+                        </li>
+
+                        <li class="rightli">
+                            <a class="entypo-mail" href="#"></a> <span>Subscribe</span>
+                        </li>
+
+                        <li class="rightli">
+                            <a class="entypo-help-circled" href="#"></a> <span>FAQ</span>
+                    	</li>
+                    </ul>
+					</div>
+					<!-- /scroller -->
+			</div>
+			</div><!-- /pusher -->
+			<footer style="width:100%;height:50px;"></footer>
+		</div><!-- /container -->
+        <script src="js/classie.js"></script>
+		<script src="js/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+		</script>
+	</body>
+</html>
